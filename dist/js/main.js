@@ -98,6 +98,7 @@ $(document).ready(function () {
 						lim_class = "limited";
 					}
 					$('<div>').append(
+
 						$('<a>').attr('href', item.url).append(
 							$('<img>').attr('src', item.img)
 						)
